@@ -7,7 +7,6 @@ public interface ITestInterface
     void TestFunc02();
 }
 
-[System.Serializable]
 public class IInterfaceContainer<T> : MonoBehaviour
 {
     private T m_CachedInterface;
@@ -24,7 +23,6 @@ public class IInterfaceContainer<T> : MonoBehaviour
     }
 }
 
-[System.Serializable]
 public class IInterfaceIpml : IInterfaceContainer<ITestInterface>
 {
 
